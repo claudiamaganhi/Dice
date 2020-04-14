@@ -9,7 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var leftDiceImageView: UIImageView!
+    @IBOutlet weak var rightDiceImageView: UIImageView!
+    @IBOutlet weak var buttonContainerView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
