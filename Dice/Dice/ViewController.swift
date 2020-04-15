@@ -48,6 +48,7 @@ class ViewController: UIViewController {
         rotation.repeatCount = 5
         leftDiceImageView.layer.add(rotation, forKey: "rotationAnimation")
         rightDiceImageView.layer.add(rotation, forKey: "rotationAnimation")
+        
     }
     
 }

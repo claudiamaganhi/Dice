@@ -12,7 +12,7 @@
 		0F2E01042445F0F7005B9158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E01032445F0F7005B9158 /* ViewController.swift */; };
 		0F2E01072445F0F7005B9158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2E01052445F0F7005B9158 /* Main.storyboard */; };
 		0F2E010C2445F0FF005B9158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2E010A2445F0FF005B9158 /* LaunchScreen.storyboard */; };
-		0F2E01142445F7D3005B9158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F2E01132445F7D3005B9158 /* Assets.xcassets */; };
+		0F71775C24474B6B00AE6871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F71775B24474B6A00AE6871 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		0F2E01062445F0F7005B9158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F2E010B2445F0FF005B9158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F2E010D2445F0FF005B9158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F2E01132445F7D3005B9158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../Downloads/Dicee-iOS13/Dicee-iOS13/Assets.xcassets"; sourceTree = "<group>"; };
+		0F71775B24474B6A00AE6871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 				0F2E01012445F0F7005B9158 /* SceneDelegate.swift */,
 				0F2E01032445F0F7005B9158 /* ViewController.swift */,
 				0F2E01052445F0F7005B9158 /* Main.storyboard */,
-				0F2E01132445F7D3005B9158 /* Assets.xcassets */,
+				0F71775B24474B6A00AE6871 /* Assets.xcassets */,
 				0F2E010A2445F0FF005B9158 /* LaunchScreen.storyboard */,
 				0F2E010D2445F0FF005B9158 /* Info.plist */,
 			);
@@ -126,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F2E010C2445F0FF005B9158 /* LaunchScreen.storyboard in Resources */,
-				0F2E01142445F7D3005B9158 /* Assets.xcassets in Resources */,
+				0F71775C24474B6B00AE6871 /* Assets.xcassets in Resources */,
 				0F2E01072445F0F7005B9158 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JM4J5P89JC;
 				INFOPLIST_FILE = Dice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = claudiamaganhi.Dice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -305,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JM4J5P89JC;
 				INFOPLIST_FILE = Dice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = claudiamaganhi.Dice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
